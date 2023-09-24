@@ -1,0 +1,12 @@
+@import 'styles/main';
+
+::ng-deep html, body {
+  min-height: 100vh;
+  background: black;
+  background-color: black;
+  background-image: linear-gradient(45deg, rgba(76, 77, 80, 0.1), rgba(25, 27, 31, 0.1)), url("assets/images/noise-texture-361x370.png");
+  //background-image: url("assets/images/noise-texture-grey-361x370.png");
+  background-repeat: repeat;
+  background-size: auto;
+  //background: linear-gradient(120deg, rgba(76, 77, 80, 0.2), rgba(25, 27, 31, 0.2));
+}
